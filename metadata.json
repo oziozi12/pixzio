@@ -1,0 +1,8 @@
+{
+  "name": "Pixzio - AI Content Productivity Suite",
+  "description": "An advanced AI-driven landing page for Pixzio, featuring smart context modes, background removal, variant generation, and an automated image-to-content pipeline.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
