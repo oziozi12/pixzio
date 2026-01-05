@@ -26,11 +26,6 @@ const Hero: React.FC = () => {
           From Pixels to <span className="gradient-text">Productivity</span> in One Click.
         </h1>
         
-        <p className="text-xl text-slate-600 max-w-2xl mx-auto mb-12 leading-relaxed font-medium">
-          The ultimate AI suite for creators. Remove backgrounds, generate visual variants, 
-          and automate your entire social media pipeline instantly.
-        </p>
-
         {/* New Creation Composer */}
         <div className="mb-16">
           <CreationComposer />
