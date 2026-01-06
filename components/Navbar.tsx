@@ -1,6 +1,7 @@
 import gt from "../images/gt.png";
 import React, { useState } from "react";
 import { FEATURES, Icons } from "./constants";
+import { Link } from 'react-router-dom';
 
 const FeatureIcon: React.FC<{ icon: string }> = ({ icon }) => {
   switch (icon) {
@@ -161,20 +162,21 @@ const Navbar: React.FC = () => {
             )}
           </div>
 
-          <a
-            href="#Generate"
-            className="hover:text-indigo-600 transition-colors"
-            title="Find the right Pixzio plan for you"
-          >
-            Pricing
-          </a>
-          <a
-            href="#reviews"
-            className="hover:text-indigo-600 transition-colors"
-            title="Use Pixzio on iPhone and Android"
-          >
-            Download
-          </a>
+          <Link
+  to="/pricing"
+  className="hover:text-indigo-600 transition-colors"
+  title="Find the right Pixzio plan for you"
+>
+  Pricing
+</Link>
+
+<Link
+  to="/download"
+  className="hover:text-indigo-600 transition-colors"
+  title="Use Pixzio on iPhone and Android"
+>
+  Download
+</Link>
         </div>
       </div>
 
