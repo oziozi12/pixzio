@@ -36,7 +36,7 @@ const PRICING_PLANS = [
   },
   {
     name: "Business",
-    price: { monthly: 59, yearly: 49 },
+    price: { monthly: 99, yearly: 49 },
     description: "Scale your agency with team-wide AI tools.",
     features: [
       "Everything in Creator",

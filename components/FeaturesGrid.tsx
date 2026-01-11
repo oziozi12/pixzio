@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FEATURES, Icons } from './constants';
 

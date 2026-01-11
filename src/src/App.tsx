@@ -10,8 +10,10 @@ import CTA from '../../components/CTA';
 import ComposerBar from '../../components/ComposerBar';
 import Download from '../../Pages/Download';
 import Pricing from '../../Pages/Pricing';
+import Background_remover from '../../Pages/Background_remover';
+import Footer from '../../components/Footer';
 
-// (Optional) Create a Home component to group main content
+//Create a Home component to group main content
 const Home = () => (
   <>
     <Hero />
@@ -29,17 +31,19 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-slate-50 pb-24">
         {/* Navbar shown on all pages */}
         <Navbar />
-
+        
         {/* Route definitions */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/download" element={<Download />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/Background_remover" element={<Background_remover />} />
           {/* You can add more <Route> here for other pages */}
         </Routes>
 
         {/* ComposerBar shown on all pages */}
         <ComposerBar />
+        <Footer />
       </div>
     </BrowserRouter>
   );
